@@ -26,8 +26,8 @@ const Header: React.FC = () => {
                             </Link>
                         </li>
                         <li className="nav__item">
-                            <Link href="#skill" className="nav__link">
-                                    <i className="uil uil-file-alt nav__icon"></i> Skill
+                            <Link href="#skills" className="nav__link">
+                                    <i className="uil uil-file-alt nav__icon"></i> Skills
                             </Link>
                         </li>
                         <li className="nav__item">
