@@ -2,6 +2,7 @@ import Header from "@/components/header/header";
 import Home from "@/components/home/home";
 import About from "@/components/about/about";
 import Skill from "@/components/skills/Skill";
+import Services from "@/components/services/Services";
 
 export default function index() {
   return (
@@ -11,6 +12,7 @@ export default function index() {
         <Home />
         <About />
         <Skill />
+        <Services />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
       </footer>
