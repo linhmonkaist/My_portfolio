@@ -1,7 +1,7 @@
 .testimonials__container {
     width: 750px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
 }
 
 .testimonials__card {
@@ -39,10 +39,12 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
+    .swiper {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
     .testimonials__container {
         width: 100%;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .testimonials__card {
