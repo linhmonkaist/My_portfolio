@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Frontend = () => {
+const Language = () => {
   return (
     <div className="skills__content">
         <h3 className="skills__title">Full-stack development</h3>
@@ -69,4 +69,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default Language

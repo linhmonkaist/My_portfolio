@@ -3,8 +3,8 @@ import React from "react";
 
 const Data = () => {
     return (
-        <div className="home__data">
-            <h1 className="home__title">Mon Mon
+        <div className="home__data"> 
+            <h1 className="home__title"> I'm Linh
                 <svg
                     width="36"
                     height="36"
@@ -55,10 +55,10 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">DEV</h3>
-            <p className="home__description">Im Linh Mon hehe</p>
+            <h3 className="home__subtitle">Software developer</h3>
+            <p className="home__description">Focusing on backend developing and DevOps, MlOps</p>
 
-            <Link href="#contact" className="button button--flex">
+            {/* <Link href="#contact" className="button button--flex">
                 Say hello
                 <svg
                   className="button__icon"
@@ -77,7 +77,7 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-            </Link>
+            </Link> */}
         </div>
     )
 }

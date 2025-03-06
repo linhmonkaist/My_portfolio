@@ -4,8 +4,8 @@ import About from "@/components/about/about";
 import Skill from "@/components/skills/Skill";
 import Services from "@/components/services/Services";
 import Qualification from "@/components/qualifacation/Qualification";
-import Testimonials from "@/components/testimonials/Testimonials";
-import Contact from "@/components/contact/Contact";
+// import Testimonials from "@/components/testimonials/Testimonials";
+// import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 
 export default function index() {
@@ -18,8 +18,8 @@ export default function index() {
         <Skill />
         <Services />
         <Qualification />
-        <Testimonials />
-        <Contact />
+        {/* <Testimonials /> */}
+        {/* <Contact /> */}
       </main>
 
       <Footer />
