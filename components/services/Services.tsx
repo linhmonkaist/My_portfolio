@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <section className="services section" id="services">
         <h2 className="section__title">Projects</h2>
-        <span className="section__subtitle"> Projects I've done so far</span>
+        <span className="section__subtitle"> Projects I have done so far</span>
 
         <div className="services__container container grid">
             <div className="services__content">
@@ -151,7 +151,7 @@ const Services = () => {
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">• Implemented fundamental components of a lightweight tree-walk interpreter for small language Fabric including
+                                <p className="services__modal-info">Implemented fundamental components of a lightweight tree-walk interpreter for small language Fabric including
                                 scanning, parsing, and evaluating code using Scala and functional programming principles.</p>
                             </li>
                         </ul>
