@@ -7,6 +7,7 @@ import Qualification from "@/components/qualifacation/Qualification";
 // import Testimonials from "@/components/testimonials/Testimonials";
 // import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
+import Work from "@/components/work/Work";
 
 export default function index() {
   return (
@@ -16,6 +17,7 @@ export default function index() {
         <Home />
         <About />
         <Skill />
+        <Work />
         <Services />
         <Qualification />
         {/* <Testimonials /> */}

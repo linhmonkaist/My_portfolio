@@ -31,17 +31,22 @@ const Header: React.FC = () => {
                             </Link>
                         </li>
                         <li className="nav__item">
+                            <Link href="#work" className="nav__link">
+                                    <i className="uil uil-briefcase-alt nav__icon"></i> Work Experience
+                            </Link>
+                        </li>
+                        <li className="nav__item">
                             <Link href="#services" className="nav__link">
-                                    <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                                    <i className="uil uil-briefcase-alt nav__icon"></i> Projects
                             </Link>
                         </li>
                         <li className="nav__item">
-                            <Link href="#portfolio" className="nav__link">
-                                    <i className="uil uil-scenery nav__icon"></i> Portfolio
+                            <Link href="#qualification" className="nav__link">
+                                    <i className="uil uil-scenery nav__icon"></i> Timeline
                             </Link>
                         </li>
                         <li className="nav__item">
-                            <Link href="#contact" className="nav__link">
+                            <Link href="#footer" className="nav__link">
                                     <i className="uil uil-message nav__icon"></i> Contact
                             </Link>
                         </li>

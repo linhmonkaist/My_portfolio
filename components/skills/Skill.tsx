@@ -3,6 +3,7 @@ import "./Skill.css";
 import Frontend from "./Frontend"
 import Backend from "./Backend"
 import Language from './Language';
+import ForeignLanguage from './ForeignLanguage';
 
 const Skill = () => {
   return (
@@ -14,6 +15,7 @@ const Skill = () => {
             <Frontend />
             <Backend />
             <Language />
+            <ForeignLanguage />
         </div>
     </section>
   )

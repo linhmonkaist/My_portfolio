@@ -6,15 +6,15 @@ import React from "react"
 const Social = () => {
     return (
         <div className="home__social">
-            <Link href="" className="home__social-icon" target="_blank">
-                <i className="uil uil-instagram"></i>
+            <Link href="https://www.linkedin.com/in/nguyen-linh-kaist/" className="home__social-icon" target="_blank">
+                    <i className="bx bxl-linkedin"></i>
             </Link>
 
-            <Link href="" className="home__social-icon" target="_blank">
+            {/* <Link href="" className="home__social-icon" target="_blank">
                 <i className="uil uil-instagram"></i>
-            </Link>
+            </Link> */}
 
-            <Link href="" className="home__social-icon" target="_blank">
+            <Link href="https://github.com/linhmonkaist" className="home__social-icon" target="_blank">
                 <i className="uil uil-github-alt"></i>
             </Link>
         </div>
