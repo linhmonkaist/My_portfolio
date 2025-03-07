@@ -1,10 +1,10 @@
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 
 const Data = () => {
     return (
         <div className="home__data"> 
-            <h1 className="home__title"> I'm Linh
+            <h1 className="home__title"> I&#39;m Linh
                 <svg
                     width="36"
                     height="36"
