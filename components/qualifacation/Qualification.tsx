@@ -32,7 +32,7 @@ const Qualification = () => {
 
                         <div >
                             <h3 className="qualification__title">Got GKS-U Scholarship</h3>
-                            <span className="qualification__subtitle"></span>KAIST
+                            <span className="qualification__subtitle"></span>KAIST, Korea
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Mar 2020 - present
                             </div>
@@ -52,8 +52,8 @@ const Qualification = () => {
                         </div>
 
                         <div >
-                            <h3 className="qualification__title">Found SEM Scholars</h3>
-                            <span className="qualification__subtitle"></span> CEO, CTO
+                            <h3 className="qualification__title">Founder, CEO, CTO SEM Scholars</h3>
+                            <span className="qualification__subtitle"></span>Remote, Vietnam 
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Mar 2020 - present
                             </div>
@@ -63,7 +63,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div >
                             <h3 className="qualification__title">Bachelor in Computer Science and Business Technology Management</h3>
-                            <span className="qualification__subtitle"></span> KAIST
+                            <span className="qualification__subtitle"></span> KAIST, Korea
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Mar 2021 - present
                             </div>
@@ -86,7 +86,7 @@ const Qualification = () => {
 
                         <div >
                             <h3 className="qualification__title">Software Engineer Intern</h3>
-                            <span className="qualification__subtitle"></span> Spotter Ltd
+                            <span className="qualification__subtitle"></span> Spotter Ltd, Korea
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Jun 2023 - Aug 2023
                             </div>
@@ -97,7 +97,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div >
                             <h3 className="qualification__title">Undergraduate Research Intern</h3>
-                            <span className="qualification__subtitle"></span> KAIST
+                            <span className="qualification__subtitle"></span> ICLab, KAIST, Korea
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Dec 2023 - Jun 2024
                             </div>
@@ -128,8 +128,8 @@ const Qualification = () => {
                     <div className="qualification__data">
 
                         <div >
-                            <h3 className="qualification__title">MLOps Engineer Intern</h3>
-                            <span className="qualification__subtitle"></span> Knorex
+                            <h3 className="qualification__title">Software Engineer Intern</h3>
+                            <span className="qualification__subtitle"></span> Knorex, Vietnam
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Jul 2024 - Jan 2025
                             </div>
@@ -149,7 +149,7 @@ const Qualification = () => {
                         </div>
                         <div >
                             <h3 className="qualification__title">Software Engineer</h3>
-                            <span className="qualification__subtitle"></span> Remote
+                            <span className="qualification__subtitle"></span> Remote, US
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> Dec 2024 - present
                             </div>

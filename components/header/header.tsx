@@ -31,6 +31,11 @@ const Header: React.FC = () => {
                             </Link>
                         </li>
                         <li className="nav__item">
+                            <Link href="#qualification" className="nav__link">
+                                    <i className="uil uil-scenery nav__icon"></i> Timeline
+                            </Link>
+                        </li>
+                        <li className="nav__item">
                             <Link href="#work" className="nav__link">
                                     <i className="uil uil-briefcase-alt nav__icon"></i> Work Experience
                             </Link>
@@ -38,11 +43,6 @@ const Header: React.FC = () => {
                         <li className="nav__item">
                             <Link href="#services" className="nav__link">
                                     <i className="uil uil-briefcase-alt nav__icon"></i> Projects
-                            </Link>
-                        </li>
-                        <li className="nav__item">
-                            <Link href="#qualification" className="nav__link">
-                                    <i className="uil uil-scenery nav__icon"></i> Timeline
                             </Link>
                         </li>
                         <li className="nav__item">

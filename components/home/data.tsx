@@ -57,9 +57,9 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
-            I&#39;m a Backend-focused software developer passionate about building scalable, efficient, and well-architected systems.
+            I&#39;m a backend-focused software developer passionate about building scalable, efficient, and well-architected systems.
             <br/> 
-            My expertise lies in backend development, DevOps, and MLOps, AI.
+            My expertise lies in backend and full-stack development, DevOps, and MLOps, AI.
             <br />
             Beside coding, I&#39;m also an entrepreneur in the EdTech space, leading a startup that leverages technology in education. 
             <br/>

@@ -17,9 +17,9 @@ export default function index() {
         <Home />
         <About />
         <Skill />
+        <Qualification />
         <Work />
         <Services />
-        <Qualification />
         {/* <Testimonials /> */}
         {/* <Contact /> */}
       </main>

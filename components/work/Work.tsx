@@ -18,6 +18,7 @@ const Work = () => {
                 <div>
                     <i className="uil uil-rocket services__icon"></i>
                     <h3 className="services__title">Software Engineer</h3>
+                    <h4 className="services__description">BiboAI</h4>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(4)}>
                     view more
@@ -28,32 +29,33 @@ const Work = () => {
                     <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
                         <h3 className="services__modal-title">Software Engineer</h3>
-                        <p className="services__modal-description">ChuyenEmKe - A startup project colab with engineers in US</p>
+                        <p className="services__modal-description">BiboAI - An AI-powered library and tool for children's storybooks</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Designed and developed a full-stack web application with React, Flask, and PostgreSQL, enabling users to create, and
-                                manage cookbooks and recipes. Set up CI/CD pipeline with GitHub Actions. Deployed services in Kubernetes and managed with Helm.</p>
+                                <p className="services__modal-info">Designed and developed a full-stack web application with Nodejs, React, Typescript for frontend, Flask,
+                                PostgreSQL and Python for backend, enabling users to create, and manage storybooks and libraries. Implemented CI/CD pipeline with GitHub 
+                                Actions. Deployed services with Docker, Kubernetes, Helm, OpenTofu.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">Implemented the Search microservice using Elasticsearch, leveraging gRPC protocol, enabling users to search for
-                                keywords and filter on recipe categories.</p>
+                                keywords and filter on storybook categories.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Built a recipe creator using Gemini, deployed as a Kubernetes cronjob to generate recipes and insert them into the
+                                <p className="services__modal-info">Built a storybook creator using Gemini, deployed as a Kubernetes cronjob to generate storybook and insert them into the
                                 application database, Elasticsearch, and an open-source vector database</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Developed an LLM chatbot to suggest recipes, leveraging Gemini, and an open-source vector database MuopDB
+                                <p className="services__modal-info">Developed an LLM search agent to suggest storybooks, leveraging Gemini, and an open-source vector database MuopDB
                                 </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Technologies: Full-stack, React, Flask, CI/CD, Kubernetes, Helm, gRPC, Elasticsearch, Vector Database, LLM Search</p>
+                                <p className="services__modal-info">Technologies: Full-stack, Python, React, Flask, CI/CD, Kubernetes, Helm, gRPC, Elasticsearch, Vector Database, LLM Search</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
@@ -67,7 +69,8 @@ const Work = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">MLOps Engineer <br/> Intern</h3>
+                    <h3 className="services__title">Software Engineer <br/> Intern</h3>
+                    <h4 className="services__description">Knorex</h4>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(1)}>
                     view more {" "}
@@ -77,24 +80,25 @@ const Work = () => {
                 <div className={toggleState === 1 ? "services__modal active-modal": "services__modal"}>
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="services__modal-title">MLOps Engineer Intern</h3>
+                        <h3 className="services__modal-title">Software Engineer Intern</h3>
                         <p className="services__modal-description">Knorex - A global provider of advertising management and execution platform</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">Owned, developed and deployed a machine learning model using Random Forest Classifier to detect 
-                                    fraudulent clicks from scratch. Achieving 85% accuracy and reducing click discrepancies by 20% with the model deployed via a K8s 
-                                    cronjob in GKE. </p>
+                                    fraudulent clicks from scratch. Achieving 85% accuracy and reducing click discrepancies by 20%. Built data pipeline for model using
+                                     Python, BigQuery and 
+                                    deployed via a K8s cronjob in GKE. </p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Addressed imbalanced, outdated, and insufficient data with soft labeling, data updates, 
+                                <p className="services__modal-info">Addressed imbalanced, outdated, and insufficient data with soft labeling, automiatic data updates, 
                                     and custom label functions; monitored model performance with Prometheus metrics and Grafana dashboards.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Built a data pipeline transforming raw AWS S3 bidding data and loading into MongoDB, 
+                                <p className="services__modal-info">Built and optimized a data pipeline transforming raw AWS S3 bidding data and loading into MongoDB, 
                                     automated with a weekly Kubernetes cronjob.</p>
                             </li>
                             <li className="services__modal-service">
@@ -105,7 +109,7 @@ const Work = () => {
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Technologies: KNN, Neural Networks, Random Forest Classifier, Bigquery, GCS, AWS S3, Prometheus, Grafana.</p>
+                                <p className="services__modal-info">Technologies: KNN, Neural Networks, Random Forest Classifier, Bigquery, GCS, AWS S3, Prometheus, Grafana, Python.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
@@ -120,6 +124,7 @@ const Work = () => {
                 <div>
                     <i className="uil  uil-web-grid services__icon"></i>
                     <h3 className="services__title">Undergraduate Research <br/> Intern</h3>
+                    <h4 className="services__description">ICLab</h4>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(2)}>
                     view more
@@ -150,7 +155,7 @@ const Work = () => {
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Conducted user studies with 10 participants to assess trust levels in mental health agents.</p>
+                                <p className="services__modal-info">Conducted user studies with 70 participants to assess trust levels in mental health agents.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
@@ -165,6 +170,7 @@ const Work = () => {
                 <div>
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">Software Engineer <br/> Intern</h3>
+                    <h4 className="services__description">Spotter Ltd</h4>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(3)}>
                     view more
@@ -196,6 +202,7 @@ const Work = () => {
                 <div>
                     <i className="uil uil-desktop-alt services__icon"></i>
                     <h3 className="services__title">Business <br/> Founder</h3>
+                    <h4 className="services__description">SEM Scholars</h4>
                 </div>
                 <span className="services__button" onClick={() => toggleTab(5)}>
                     view more
@@ -215,7 +222,7 @@ const Work = () => {
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">Developed and managed the organization&#39;s website and internal tools, leveraging technology to streamline operations and improve customer engagement.</p>
+                                <p className="services__modal-info">Developed and managed the organization&#39;s website and internal tools, leveraging Google Appscript to streamline operations and improve customer engagement.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>

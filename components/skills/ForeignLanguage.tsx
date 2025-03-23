@@ -11,7 +11,7 @@ const ForeignLanguage = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">English</h3>
-                        <span className="skills__level"></span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -19,7 +19,7 @@ const ForeignLanguage = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Korean</h3>
-                        <span className="skills__level"></span>
+                        <span className="skills__level">TOPIK 5</span>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@ const ForeignLanguage = () => {
                     <i className="bx bx-badge-check"></i>
                     <div>
                         <h3 className="skills__name">Vietnamese</h3>
-                        <span className="skills__level"></span>
+                        <span className="skills__level">Native</span>
                     </div>
                 </div>
 
