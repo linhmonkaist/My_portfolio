@@ -29,7 +29,7 @@ const Work = () => {
                     <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
                         <h3 className="services__modal-title">Software Engineer</h3>
-                        <p className="services__modal-description">BiboAI - An AI-powered library and tool for children's storybooks</p>
+                        <p className="services__modal-description">BiboAI - An AI-powered library and tool for children&#39;s storybooks</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
